@@ -1,6 +1,4 @@
-// import React from 'react';
-// import logo from './logo.svg';
-import './App.css';
+import './styling/style.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Layout from './pages/Layout';

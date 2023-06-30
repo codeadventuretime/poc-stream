@@ -1,3 +1,12 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightcyan;
+}
+
+.App {
+    text-align: center;
+}
+
 .icons {
     width: 30px;
     height: auto;
@@ -13,9 +22,10 @@
     box-sizing: content-box;
     left: 5px;
     right: 5px;
-    height: 50px;
+    min-height: 50px;
     border: solid lightgray 1px;
     border-radius: 5px;
+    padding: 5px;
 }
 
 .titleContainerText {
@@ -23,7 +33,7 @@
     left: 10px;
     top: -5px;
     background-color: lightcyan;
-    width: 3em;
+    width: 4em;
     text-align: center;
     font-size: xx-small;
 }
