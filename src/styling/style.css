@@ -1,0 +1,29 @@
+.icons {
+    width: 30px;
+    height: auto;
+}
+
+.titleContainer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.titleContainerBorder {
+    position: absolute;
+    box-sizing: content-box;
+    left: 5px;
+    right: 5px;
+    height: 50px;
+    border: solid lightgray 1px;
+    border-radius: 5px;
+}
+
+.titleContainerText {
+    position: relative;
+    left: 10px;
+    top: -5px;
+    background-color: lightcyan;
+    width: 3em;
+    text-align: center;
+    font-size: xx-small;
+}
